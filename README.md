@@ -1,4 +1,4 @@
-# Abstract Analyzer
+# PubMed Entity Annotator
 
 This program takes the abstract of a PubMed article ID (PMID) as a command line argument and saves the annotations of recognized entities (e.g. proteins, drugs, diseases) as a JSON file.
 
