@@ -8,4 +8,5 @@ It contains the following files:
 
 To run the code, simply down onto computer and then in a python environment, run the following code:
 
-`python main.py`
+```python
+python main.py
