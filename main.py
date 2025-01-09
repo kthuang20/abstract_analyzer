@@ -14,7 +14,7 @@ if entry:
     ## extract the abstract fprom the article
     abstract = extract_abstract(entry)
     ## get annotations
-    get_annotations(abstract, pmid)
+    annotate(abstract, pmid)
 ### otherwise,
 else:
     print("Failed to retrieve entry from PMID:", pmid)
