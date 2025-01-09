@@ -1,6 +1,4 @@
-
-from fetch_pubmed import *
-from use_gilda import *
+from code import *
 
 ### ask user for pubchem article id and save it as a string
 # pmid = 123
@@ -13,7 +11,7 @@ entry = get_pmid_entry(pmid)
 ### if article exists:
 if entry:
     print("Successfully retrieved entry from PMID:", pmid)
-    ## extract the abstract from the article
+    ## extract the abstract fprom the article
     abstract = extract_abstract(entry)
     ## get annotations
     get_annotations(abstract, pmid)
